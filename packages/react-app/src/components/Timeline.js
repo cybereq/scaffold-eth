@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React from 'react'
 import Blockies from 'react-blockies';
 import { Timeline, Typography } from 'antd';

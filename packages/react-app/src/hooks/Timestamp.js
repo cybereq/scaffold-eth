@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { useState, useEffect } from 'react';
 import usePoller from "./Poller.js";
 import useBlockNumber from "./BlockNumber.js";

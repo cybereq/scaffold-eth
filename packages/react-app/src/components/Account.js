@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React, { useState, useEffect, useRef } from 'react'
 import { ethers } from "ethers";
 import BurnerProvider from 'burner-provider';

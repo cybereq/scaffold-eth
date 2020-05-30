@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React, { useState } from 'react'
 import { usePoller, useBlockNumber } from "../hooks";
 import { Button, Badge } from 'antd';

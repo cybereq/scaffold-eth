@@ -1,4 +1,7 @@
+/*eslint no-unused-vars: ["error", { "vars": "local" }]*/
+/*global some_unused_var */
 import React, { useState } from 'react'
+
 import { ethers } from "ethers";
 import { usePoller } from "../hooks";
 

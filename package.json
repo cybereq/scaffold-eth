@@ -27,10 +27,24 @@
     "balance": "cd packages/buidler && npx buidler balance",
     "send": "cd packages/buidler && npx buidler send"
   },
+  "dependencies": {
+    "@nomiclabs/buidler": "^1.3.5"
+  },
+
   "devDependencies": {
-    "@nomiclabs/buidler": "1.3.3-rc.0",
+    "@nomiclabs/buidler-ethers": "^1.3.3",
     "@nomiclabs/buidler-truffle5": "1.3.3-rc.0",
-    "@nomiclabs/buidler-web3": "1.3.3-rc.0"
+    "@nomiclabs/buidler-waffle": "^1.3.4",
+    "@nomiclabs/buidler-web3": "1.3.3-rc.0",
+    "chai": "^4.2.0",
+    "ethereum-waffle": "^2.5.1",
+    "ethers": "^4.0.47"
+  },
+  "scripts": {
+    "start": "node node_modules/react-scripts/scripts/start.js",
+    "build": "node node_modules/react-scripts/scripts/build.js",
+    "test": "node node_modules/react-scripts/scripts/test.js",
+    "eject": "node node_modules/react-scripts/scripts/eject.js"
   },
   "workspaces": {
     "packages": [

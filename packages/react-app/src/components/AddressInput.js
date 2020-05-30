@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React, { useState, useEffect } from 'react'
 import { Blockie }  from "."
 import { Input } from 'antd';
@@ -33,6 +34,7 @@ export default function AddressInput(props) {
       }
       getEns()
     }
+    // eslint-disable-next-line
   },[props.value, props.ensProvider])
 
 

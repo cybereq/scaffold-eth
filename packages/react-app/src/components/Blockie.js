@@ -1,3 +1,5 @@
+/* eslint no-undef: 0 */ // --> OFF
+/* eslint-disable */
 import React, { useState } from 'react'
 import Blockies from 'react-blockies';
 

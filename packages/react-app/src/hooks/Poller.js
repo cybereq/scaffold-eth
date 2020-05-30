@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React, { useEffect, useRef } from 'react';
 export default function usePoller(fn, delay) {
   const savedCallback = useRef();

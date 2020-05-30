@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { useState, useEffect } from 'react';
 
 export default function useEventListener(contracts,contractName,eventName,provider,startBlock,args) {

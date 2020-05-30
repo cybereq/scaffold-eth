@@ -92,16 +92,22 @@ async function addr(addr) {
 }
 
 module.exports = {
-  defaultNetwork: 'localhost',
+  defaultNetwork: 'ganache',
   networks: {
     localhost: {
+      },
+    ganache: {
+        gasLimit: 6000000000,
+        defaultBalanceEther: 10,
+        url: 'http://23.237.25.34:7545'
+       }
       //url: 'https://rinkeby.infura.io/v3/2717afb6bf164045b5d5468031b93f87',
-      url: 'http://localhost:8545',
+      
       /*accounts: {
         mnemonic: "**SOME MNEMONIC**"
       },*/
     },
-  },
+  
   solc: {
     version : "0.6.6",
     optimizer: {

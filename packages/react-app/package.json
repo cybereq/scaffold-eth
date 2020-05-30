@@ -49,7 +49,9 @@
   "scripts": {
     "build": "react-scripts build",
     "eject": "react-scripts eject",
-    "start": "react-scripts start",
+    "start": "export PORT=3000 && react-scripts start",
     "test": "react-scripts test"
+  },
+  "resolutions": { "browserslist": "4.6.2", "caniuse-lite": "1.0.30000974" 
   }
 }

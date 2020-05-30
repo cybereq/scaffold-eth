@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React, { useState } from 'react'
 import { Input, Button, Tooltip } from 'antd';
 import Blockies from 'react-blockies';

@@ -1,0 +1,4 @@
+logout
+exit
+--config
+compile
